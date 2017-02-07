@@ -1,6 +1,9 @@
 {
   "name": "hal",
   "version": "0.0.0",
+  "engines": {
+    "node": "6.9.4"
+  },
   "private": true,
   "author": "simontegg <simon@enspiral.com>",
   "description": "A simple helpful robot for your Company",
