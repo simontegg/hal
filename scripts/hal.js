@@ -10,11 +10,5 @@ module.exports = (robot) => {
 
   })
  
-  robot.hear(/I'm sorry/i, (res) => {
-    console.log('sorry')
-    setTimeout(() => {
-      res.send("I'm afraid I can't do that")
-    }, 1200)
-  })
 
 }
