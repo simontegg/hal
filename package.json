@@ -1,12 +1,12 @@
 {
   "name": "hal",
   "version": "0.0.0",
-  "engines": {
-    "node": "6.9.4"
-  },
   "private": true,
   "author": "simontegg <simon@enspiral.com>",
   "description": "A simple helpful robot for your Company",
+  "scripts": {
+    "test": "tape test/** | tap-spec"
+  },
   "dependencies": {
     "hubot": "^2.19.0",
     "hubot-diagnostics": "0.0.1",
@@ -20,9 +20,9 @@
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.17.2",
     "hubot-shipit": "^0.2.0",
-    "hubot-slack": "^4.3.1"
-  },
-  "engines": {
-    "node": "0.10.x"
+    "hubot-slack": "^4.3.1",
+    "lodash": "^4.17.4",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
   }
 }
